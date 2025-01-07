@@ -1,0 +1,60 @@
+# Ignorar arquivos PHP temporários gerados pelo editor
+*.swp
+*.swo
+
+# Ignorar arquivos de cache e logs
+*.log
+*.cache
+*.tmp
+
+# Ignorar dependências do Composer
+/vendor/
+
+# Ignorar configurações do Composer locais
+composer.lock
+composer.phar
+
+# Ignorar arquivos do PHPUnit
+.phpunit.result.cache
+
+# Ignorar configurações do ambiente
+.env
+.env.local
+.env.*.local
+.env.testing
+
+# Ignorar arquivos de build
+/build/
+/node_modules/
+
+# Ignorar uploads de usuário ou outros arquivos gerados dinamicamente
+/public/uploads/
+public/storage/
+storage/*.key
+
+# Ignorar arquivos de IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar caches do framework Laravel ou similares
+bootstrap/cache/
+
+# Ignorar binários e arquivos executáveis
+*.exe
+*.dll
+*.so
+
+# Ignorar arquivos de debug
+*.bak
+*.orig
+*.old
+
+# Ignorar chaves de API ou arquivos de configuração sensíveis
+config/*.php.bak
+secrets.php

@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	margin: 0;
+	font-family: "Noto Sans", sans-serif;
+}
+body * {
+	box-sizing: border-box;
+}
+.principal {
+	width: 100vw;
+	height: 100vh;
+	background: rgb(255, 255, 255);
+	/* background: rgb(9, 16, 46); */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.antes-login {
+	width: 40vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.antes-login > h1 {
+	font-size: 3vh;
+	color: rgb(26, 37, 99);
+	text-transform: uppercase;
+}
+.depois-login {
+	width: 35vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.carta-login {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 30px 35px;
+	background: rgb(26, 37, 99);
+	border-radius: 20px;
+	box-shadow: 0px 10px 40px rgb(7, 0, 0);
+}
+.carta-login > h1 {
+	color: rgb(56, 216, 104);
+	font-weight: 800;
+	margin: 0;
+}
+.text-field {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	margin: 10px 0px;
+}
+.text-field > input {
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: rgb(66, 64, 158);
+	color: rgba(255, 255, 255, 0.87);
+	font-size: 12pt;
+	box-shadow: 0px 10px 40px rgb(7, 0, 0);
+	outline: none;
+	box-sizing: border-box;
+}
+
+.text-field > label {
+	color: whitesmoke;
+	margin-bottom: 10px;
+}
+input {
+	color: rgb(66, 64, 158);
+}
+
+.text-field > input::placeholder {
+	color: rgba(253, 249, 244, 0.568);
+}
+
+.btn-login {
+	width: 100%;
+	padding: 10px 0px;
+	margin: 25px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 3px;
+	color: rgb(9, 28, 46);
+	background: rgb(56, 216, 104);
+	cursor: pointer;
+	box-shadow: 0px 10px 40px -12px rgb(56, 216, 104);
+}
+.btn-loginn {
+	
+	padding: 10px 40px;
+	margin-top: 10px;
+	margin-left: 1%;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	letter-spacing: 3px;
+	color: rgb(9, 28, 46);
+	background: rgb(56, 216, 104);
+	cursor: pointer;
+	box-shadow: 0px 10px 40px -12px rgb(56, 216, 104);
+}
+.antes-login-animacao {
+	width: 35vw;
+}
+
+@media only screen and (max-width: 950px) {
+	.carta-login {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.principal {
+		flex-direction: column;
+	}
+	.antes-login > h1 {
+		display: none;
+	}
+	.antes-login {
+		width: 100%;
+		height: auto;
+	}
+	.depois-login {
+		width: 100%;
+		height: auto;
+	}
+	.antes-login-animacao {
+		width: 50vw;
+	}
+	.carta-login {
+		width: 90%;
+	}
+}

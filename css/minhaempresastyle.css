@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.dashboard-container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #38d868;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header .user-info span {
+    font-size: 16px;
+}
+
+.stats-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+.card {
+    width: 30%;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card .icon {
+    font-size: 30px;
+    color: #38d868;
+    margin-top: 10px;
+}
+
+.feedback-chart, .recent-activity {
+    margin: 30px 20px;
+}
+
+.feedback-chart h2, .recent-activity h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.recent-activity ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.recent-activity li {
+    font-size: 16px;
+    color: #555;
+}
+
+.recent-activity li strong {
+    color: #333;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .stats-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+/* Estilo geral já existente, adicionado novas seções para Marketing Digital */
+.marketing-section {
+    margin: 30px 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.marketing-section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.marketing-tips {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.tip-card {
+    width: 48%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+    transform: translateY(-10px);
+}
+
+.tip-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #38d868;
+}
+
+.tip-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.tools-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tool-card {
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-10px);
+}
+
+.tool-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #38d868;
+}
+
+.tool-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.volta{
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #42409e;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,191 @@
+
+        /* Reset básico de estilo */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.8rem;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .empresa-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3); 
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .empresa-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .empresa-header img {
+            max-width: 250px;
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .empresa-header h2 {
+            font-size: 2rem;
+            color: #42409e;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: #42409e;
+            font-weight: bold;
+            margin-bottom: 15px;
+            border-bottom: 2px solid  #42409e;
+            padding-bottom: 5px;
+        }
+
+        .empresa-details,
+        .endereco-details {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .empresa-details p,
+        .endereco-details p {
+            margin: 10px 0;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        .empresa-details span,
+        .endereco-details span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .empresa-details p::before,
+        .endereco-details p::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 8px;
+            width: 8px;
+            background-color: #2196f3;
+            border-radius: 50%;
+        }
+
+        .comentarios {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .comentarios h3 {
+            margin-bottom: 15px;
+            color: #42409e;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .comentarios textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+            resize: vertical;
+            transition: all 0.3s;
+        }
+
+        .comentarios textarea:focus {
+            border-color: #42409e;
+            box-shadow: 0 0 10px rgba(76, 175, 80, 0.2);
+            outline: none;
+        }
+
+        .comentarios button {
+            padding: 12px 20px;
+            background-color: #42409e;
+            color: white;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 8px;
+            border: none;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .comentarios button:hover {
+            background-color: #42409e;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 15px;
+            background-color: #42409e;
+            color: white;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #42409e;
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 15px;
+            background-color: #FF6347;
+            color: white;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #e55347;
+        }
+        .button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background-color: #00ff88;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .button:hover {
+            background-color: rgb(43, 233, 135);
+        }
